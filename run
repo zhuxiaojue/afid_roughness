@@ -1,0 +1,2 @@
+./configure --with-fftw3=/marconi_scratch/userexternal/xzhu0000/lib/fftw3 --with-hdf5=/marconi_scratch/userexternal/xzhu0000/lib/hdf5  FCFLAGS="-O3 -xCORE-AVX2"    MPIFC='/marconi_scratch/userexternal/xzhu0000/lib/hdf5/bin/h5pfc'
+

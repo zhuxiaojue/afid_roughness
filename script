@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N test_32
+#PBS -l walltime=0:30:00
+#PBS -l select=1:ncpus=36:mpiprocs=36:mem=118GB
+#PBS -o job.out
+#PBS -e job.err
+#PBS -A Pra12_3124_0
+
+cd $PBS_O_WORKDIR
+
+
+export FOR_PRINT=job.out
+ 
+mpirun -n 36 ./afid
